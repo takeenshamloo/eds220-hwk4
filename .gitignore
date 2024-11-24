@@ -1,5 +1,11 @@
-# Don't allow data folder to get pushed
-data/
+# Ignore everything in the data folder
+data/*
+
+# Except for the thomas-fire-boundary-file
+!data/thomas-fire-boundary-file
+
+# Make sure to allow the folder itself
+!data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
