@@ -1,10 +1,10 @@
 # Ignore everything in the data folder
 data/*
 
-# Except for the thomas-fire-boundary-file
-!data/thomas-fire-boundary-file
+# Except for the thomas_fire_2017.geojson file
+!data/thomas_fire_2017.geojson
 
-# Make sure to allow the folder itself
+# Ensure the data directory itself is not ignored
 !data/
 
 # Byte-compiled / optimized / DLL files
