@@ -1,5 +1,6 @@
 # Ignore everything in the data folder
 data/*
+.DS_Store
 
 # Except for the thomas_fire_2017.geojson file
 !data/thomas-fire-boundary-file.geojson
