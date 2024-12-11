@@ -4,6 +4,9 @@ data/*
 
 # Except for the thomas_fire_2017.geojson file
 !data/thomas-fire-boundary-file.geojson
+!data/daily_aqi_by_county_2017.csv
+!data/daily_aqi_by_county_2018.csv
+!data/landsat8-2018-01-26-sb-simplified.nc
 
 # Ensure the data directory itself is not ignored
 !data/
